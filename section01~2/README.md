@@ -6,12 +6,21 @@
    input 함수 사용 시, 출력 함수와 다르게 단어를 입력 받음
    출력 함수 안에 입력함수(input) 실행 시, 받은 내용 출력 가능
 
-```python
-    print("Hello" + input("What is your name?"))
-```
+    ```python
+        print("Hello" + input("What is your name?"))
+    ```
 
 3. 주석 : #
 
 4. len() : string 갯수 출력 함수
 
 5. 파이썬에서 \_ 는 무시되지만 사용자에게는 가독성이 좋음
+
+6. type함수 : 데이터 형식 확인
+
+    ex) 정수형에 문자열 형식 추가 불가하여 오류 발생할 때, 데이터 형식을 확인함으로써 원인 파악 가능 
+
+    ```python
+    type()
+    ```
+
