@@ -62,7 +62,22 @@
         score +=    # score + 1 과 같음
         score -=    # score - 1 과 같음 (*=, /= 도 같음)
     ```
---------------------------------------------------------------
+
+14. F-String : 문자열 + 데이터유형 혼합 가능
+    ```python
+        f"your score is"    # 문자열 앞에 f 붙여 사용
+    ```
+
+    1) 변수 사용시 중괄호 안에 입력
+
+    ```python
+        score = 0
+        
+        print(f"your score is {score}")    # your score is 0 출력
+    ```
+
+<br>
+<br>
 
 ## (Thonny 디버깅툴)
 
