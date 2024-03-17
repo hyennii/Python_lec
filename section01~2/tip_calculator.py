@@ -10,5 +10,3 @@ bill_per_person = bill_with_tip / people
 final_amount = round(bill_per_person, 2)  #소수점 둘째자리에서 반올림
 
 print(f"Each person should pay: ${final_amount}")
-
-#https://repl.it/@alqkf/tip-calculator-start?embed=1&output=1#main.py
