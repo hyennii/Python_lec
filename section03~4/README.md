@@ -7,3 +7,7 @@
     else :
         do this
 ```
+
+2. elif
+
+    : else if 
