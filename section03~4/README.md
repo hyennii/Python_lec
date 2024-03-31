@@ -13,5 +13,8 @@
     : else if 
 
 3. lower() : 모든 문자를 소문자로 변형
+```python
+    a = b.lower()
+```
 
 4. upper() : 모든 문자를 대문자로 변형
