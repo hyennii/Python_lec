@@ -27,7 +27,7 @@
             import random
         ```
 
-    2)randint(a,b) 
+    2) randint(a,b) 
      
     : a와 b를 포함해 a와 b사이의 정수 난수 반환
 
@@ -35,4 +35,13 @@
         random_integer = random.randint(1, 10)  #1이상 10 이하
 
         print(random_integer)   #1이상 10 이하의 숫자 랜덤으로 출력
+    ```
+
+    3) random()
+    : 1을 포함하지 않고 0과 1 사이에 존재하는 숫자 출력
+
+    ```python
+        random_float = random.random()
+
+        print(random_float)     #0과 1 사이의 부동 소수점 출력
     ```
