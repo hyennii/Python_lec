@@ -29,7 +29,7 @@
 
     2) randint(a,b) 
      
-    : a와 b를 포함해 a와 b사이의 정수 난수 반환
+         : a와 b를 포함해 a와 b사이의 정수 난수 반환
 
     ```python
         random_integer = random.randint(1, 10)  #1이상 10 이하
@@ -38,10 +38,22 @@
     ```
 
     3) random()
-    : 1을 포함하지 않고 0과 1 사이에 존재하는 숫자 출력
+
+        : 1을 포함하지 않고 0과 1 사이에 존재하는 숫자 출력
 
     ```python
         random_float = random.random()
 
         print(random_float)     #0과 1 사이의 부동 소수점 출력
+    ```
+
+6. List
+
+    : 대괄호 안에 모든 데이터 형식 저장
+
+    1) list 안에서 특정 순서의 데이터 추출 
+    ```python
+        fruits = ["apple", "watermelon", "grapes", "mango", "strawberry", "orange"]
+
+        print(fruits[0])    #데이터인덱스로 순서 출력
     ```
