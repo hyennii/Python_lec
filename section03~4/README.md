@@ -55,5 +55,26 @@
     ```python
         fruits = ["apple", "watermelon", "grapes", "mango", "strawberry", "orange"]
 
-        print(fruits[0])    #데이터인덱스로 순서 출력
+        print(fruits[0])      #데이터인덱스로 순서 출력
     ```
+
+    2) 음수를 사용하면 뒤에서부터 시작
+    ```python
+        fruits = ["apple", "watermelon", "grapes", "mango", "strawberry", "orange"]
+
+        print(fruits[-1])       #orange 출력
+    ```
+
+    3) 데이터 변경 가능
+    ```python
+        fruits = ["apple", "watermelon", "grapes", "mango", "strawberry", "orange"]
+
+        fruits[1] = "cherry"
+        print(fruits)        #watermelon 대신 cherry 출력
+    ```
+    
+    4) list의 맨 뒤에 추가
+    ```python
+        fruits.append("melon")      #append함수 : 항목을 list 마지막에 추가
+    ```
+         
