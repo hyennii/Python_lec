@@ -1,0 +1,17 @@
+보물지도
+
+line1 = ["⬜️","️⬜️","️⬜️"]
+line2 = ["⬜️","⬜️","️⬜️"]
+line3 = ["⬜️️","⬜️️","⬜️️"]
+map = [line1, line2, line3]
+print("Hiding your treasure! X marks the spot.")
+position = input() # Where do you want to put the treasure?
+
+letter = position[0].lower()   #입력값에서 첫번째 글자 가져오기(소문자 변환)
+abc = ["a", "b", "c"]
+letter_index = abc.index(letter)
+number_index = int(position[1]) - 1
+map[number_index][letter_index] = "X"   #중첩리스트는 바깥에서 안쪽으로 읽음
+
+
+print(f"{line1}\n{line2}\n{line3}")
