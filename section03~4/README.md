@@ -78,3 +78,15 @@
         fruits.append("melon")      #append함수 : 항목을 list 마지막에 추가
     ```
          
+    5) index out of range 오류 : 리스트의 범위를 벗어났을 때 발생
+
+    6) off-by-one 오류 : 숫자 하나 차이로 발생될 수 있으며, 프로그래밍에서 발생하기 쉬움
+
+    7) 중첩 리스트 : 리스트 안에 리스트 포함
+    ```python
+        fruits = ["strawberry", "apple", "peach", "cherry", "pear", "grape"]
+        vegetables = ["spinach", "kale", "tomato", "potato"]
+
+        dirty_dozen = [fruits, vegetables]
+        print(dirty_dozen)      #2개의 대괄호와 그를 감싸는 대괄호1개로 묶여 출력
+    ```
