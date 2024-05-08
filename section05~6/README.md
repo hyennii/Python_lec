@@ -25,3 +25,20 @@
     even_sum += number
     print(even_sum)
 ```
+
+3. 나만의 함수 만들기
+
+```python
+    def my_function():  #def : 함수를 생성하거나 정의한다는 의미
+        print("Hello")
+        print("Bye")
+
+    my_function()   #호출
+```
+
+
+
+
+------------------------------------------------------------
+
+- 내장함수 참고 : https://docs.python.org/ko/3/library/functions.html
